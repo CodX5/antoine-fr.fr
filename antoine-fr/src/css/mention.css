@@ -1,0 +1,17 @@
+.mention_légal{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3{
+    font-size: 120%;
+    color: #EC4848;
+}
+
+.titre{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    color: #EC4848;
+    text-decoration: underline;
+}

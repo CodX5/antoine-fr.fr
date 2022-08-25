@@ -1,0 +1,50 @@
+#homepage {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 150px;
+}
+
+#homepage img {
+  width: 50%;
+  height: 100%;
+  margin-left: 100px;
+}
+
+#homepage .title {
+  line-height: 80px;
+}
+
+#homepage .subtitle,
+#homepage .button {
+  margin-top: 30px;
+}
+
+@media (max-width: 1280px) {
+  #homepage img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #homepage {
+    flex-direction: column-reverse;
+  }
+  #homepage div {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+  #homepage img {
+    width: 50%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  #homepage .title, #homepage .subtitle {
+    text-align: center;
+  }
+
+  #homepage .title{
+    font-size: 70%;
+  }
+}
